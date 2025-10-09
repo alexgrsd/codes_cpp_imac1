@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td7/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/ex01.dir/src/ex1.cpp.o -c \"/Users/alexandregrosdidier/Desktop/cours /cpp/td/td7/src/ex1.cpp\"",
+  "file": "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td7/src/ex1.cpp",
+  "output": "CMakeFiles/ex01.dir/src/ex1.cpp.o"
+},
+{
+  "directory": "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td7/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/ex02.dir/src/ex2.cpp.o -c \"/Users/alexandregrosdidier/Desktop/cours /cpp/td/td7/src/ex2.cpp\"",
+  "file": "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td7/src/ex2.cpp",
+  "output": "CMakeFiles/ex02.dir/src/ex2.cpp.o"
+}
+]

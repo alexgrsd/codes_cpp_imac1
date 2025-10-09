@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ex01.dir/src/color.cpp.o CMakeFiles/ex01.dir/src/color_hex.cpp.o CMakeFiles/ex01.dir/src/colors_utils.cpp.o -o ex01

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/ex01.dir/src/color.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.cpp",
+  "file": "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.cpp",
+  "output": "CMakeFiles/ex01.dir/src/color.cpp.o"
+},
+{
+  "directory": "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/ex01.dir/src/color_hex.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.cpp",
+  "file": "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.cpp",
+  "output": "CMakeFiles/ex01.dir/src/color_hex.cpp.o"
+},
+{
+  "directory": "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/ex01.dir/src/colors_utils.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/colors_utils.cpp",
+  "file": "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/colors_utils.cpp",
+  "output": "CMakeFiles/ex01.dir/src/colors_utils.cpp.o"
+}
+]
