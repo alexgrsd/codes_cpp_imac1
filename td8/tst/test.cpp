@@ -11,6 +11,8 @@ int main() {
 
     cout << r << " " << g << " " << b << endl;
 
+    // uuuuu
+
 
     return 0;
 }
