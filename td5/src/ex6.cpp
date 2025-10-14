@@ -23,8 +23,8 @@ int countVowels(const string& str) {
 }
 
 int countConsonants(const string& str) {
-    int length {str.length()};
-    int count {length - countVowels(str)}; // on part du principe que tout est une consonne
+    size_t length {str.length()};
+    int count {static_cast<int>(length) - countVowels(str)}; // on part du principe que tout est une consonne
     for (char ch : str) {
         if (!isalpha(ch)) { // si ce n'est pas une lettre, on décrémente
             count--;
