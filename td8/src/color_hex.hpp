@@ -10,4 +10,4 @@ unsigned int hex_from_color_int(Color::Rgb const& col);
 
 Color::Rgb color_from_hex(std::string const& hex_str);
 
-std::string hex_from_color_string(Color::Rgb const& col);
+std::string hex_string_from_color_int(Color::Rgb const& col);

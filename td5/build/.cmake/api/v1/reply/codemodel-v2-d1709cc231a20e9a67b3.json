@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TD05",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ex01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex01-Debug-8eff985eefb64f4b55b2.json",
+					"name" : "ex01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex02-Debug-88ec5ef40eb945bebf97.json",
+					"name" : "ex02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex03-Debug-bab7bacc650cbac0127a.json",
+					"name" : "ex03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex04-Debug-22f9c9faa371e058e5eb.json",
+					"name" : "ex04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex05-Debug-2f05cd095cbd9428a18f.json",
+					"name" : "ex05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex06-Debug-3439525b07ad73506484.json",
+					"name" : "ex06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex07-Debug-3d9beb741a95202a017c.json",
+					"name" : "ex07",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td5/build",
+		"source" : "/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -2,11 +2,12 @@
 
 namespace Color {
 
-    struct Rgb{
-        int r {0};
-        int g {0};
-        int b {0};
+    struct Rgb {
+        unsigned int r;
+        unsigned int g;
+        unsigned int b;
     };
 
-
 }
+
+void print_color(const Color::Rgb& col);

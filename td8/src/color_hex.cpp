@@ -1,4 +1,5 @@
 #include "color_hex.hpp"
+#include <sstream>  
 #include "color.hpp"
 #include <string>
 
@@ -27,9 +28,11 @@ Color::Rgb color_from_hex(std::string const& hex_str){
     return color_from_hex(hex);
 }
 
-std::string hex_from_color_string(Color::Rgb const& col){
+std::string hex_string_from_color_int(Color::Rgb const& col){
     unsigned int hex {hex_from_color_int(col)};
     std::string hex_str {"#"};
-
+    std::stringstream ss;
+    ss << std::hex << std::uppercase << hex;
+    hex_str += ss.str(); 
     return hex_str;
 }

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8
+CMAKE_SOURCE_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build
+CMAKE_BINARY_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex01.dir/depend.make
@@ -73,52 +73,67 @@ CMakeFiles/ex01.dir/codegen:
 .PHONY : CMakeFiles/ex01.dir/codegen
 
 CMakeFiles/ex01.dir/src/color.cpp.o: CMakeFiles/ex01.dir/flags.make
-CMakeFiles/ex01.dir/src/color.cpp.o: /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.cpp
+CMakeFiles/ex01.dir/src/color.cpp.o: /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color.cpp
 CMakeFiles/ex01.dir/src/color.cpp.o: CMakeFiles/ex01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex01.dir/src/color.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/color.cpp.o -MF CMakeFiles/ex01.dir/src/color.cpp.o.d -o CMakeFiles/ex01.dir/src/color.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex01.dir/src/color.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/color.cpp.o -MF CMakeFiles/ex01.dir/src/color.cpp.o.d -o CMakeFiles/ex01.dir/src/color.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color.cpp
 
 CMakeFiles/ex01.dir/src/color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex01.dir/src/color.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.cpp > CMakeFiles/ex01.dir/src/color.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color.cpp > CMakeFiles/ex01.dir/src/color.cpp.i
 
 CMakeFiles/ex01.dir/src/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/src/color.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.cpp -o CMakeFiles/ex01.dir/src/color.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color.cpp -o CMakeFiles/ex01.dir/src/color.cpp.s
 
 CMakeFiles/ex01.dir/src/color_hex.cpp.o: CMakeFiles/ex01.dir/flags.make
-CMakeFiles/ex01.dir/src/color_hex.cpp.o: /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.cpp
+CMakeFiles/ex01.dir/src/color_hex.cpp.o: /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color_hex.cpp
 CMakeFiles/ex01.dir/src/color_hex.cpp.o: CMakeFiles/ex01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex01.dir/src/color_hex.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/color_hex.cpp.o -MF CMakeFiles/ex01.dir/src/color_hex.cpp.o.d -o CMakeFiles/ex01.dir/src/color_hex.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex01.dir/src/color_hex.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/color_hex.cpp.o -MF CMakeFiles/ex01.dir/src/color_hex.cpp.o.d -o CMakeFiles/ex01.dir/src/color_hex.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color_hex.cpp
 
 CMakeFiles/ex01.dir/src/color_hex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex01.dir/src/color_hex.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.cpp > CMakeFiles/ex01.dir/src/color_hex.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color_hex.cpp > CMakeFiles/ex01.dir/src/color_hex.cpp.i
 
 CMakeFiles/ex01.dir/src/color_hex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/src/color_hex.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.cpp -o CMakeFiles/ex01.dir/src/color_hex.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color_hex.cpp -o CMakeFiles/ex01.dir/src/color_hex.cpp.s
 
 CMakeFiles/ex01.dir/src/colors_utils.cpp.o: CMakeFiles/ex01.dir/flags.make
-CMakeFiles/ex01.dir/src/colors_utils.cpp.o: /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/colors_utils.cpp
+CMakeFiles/ex01.dir/src/colors_utils.cpp.o: /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/colors_utils.cpp
 CMakeFiles/ex01.dir/src/colors_utils.cpp.o: CMakeFiles/ex01.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex01.dir/src/colors_utils.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/colors_utils.cpp.o -MF CMakeFiles/ex01.dir/src/colors_utils.cpp.o.d -o CMakeFiles/ex01.dir/src/colors_utils.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/colors_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex01.dir/src/colors_utils.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/colors_utils.cpp.o -MF CMakeFiles/ex01.dir/src/colors_utils.cpp.o.d -o CMakeFiles/ex01.dir/src/colors_utils.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/colors_utils.cpp
 
 CMakeFiles/ex01.dir/src/colors_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex01.dir/src/colors_utils.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/colors_utils.cpp > CMakeFiles/ex01.dir/src/colors_utils.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/colors_utils.cpp > CMakeFiles/ex01.dir/src/colors_utils.cpp.i
 
 CMakeFiles/ex01.dir/src/colors_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/src/colors_utils.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/colors_utils.cpp -o CMakeFiles/ex01.dir/src/colors_utils.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/colors_utils.cpp -o CMakeFiles/ex01.dir/src/colors_utils.cpp.s
+
+CMakeFiles/ex01.dir/src/main.cpp.o: CMakeFiles/ex01.dir/flags.make
+CMakeFiles/ex01.dir/src/main.cpp.o: /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/main.cpp
+CMakeFiles/ex01.dir/src/main.cpp.o: CMakeFiles/ex01.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex01.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ex01.dir/src/main.cpp.o -MF CMakeFiles/ex01.dir/src/main.cpp.o.d -o CMakeFiles/ex01.dir/src/main.cpp.o -c /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/main.cpp
+
+CMakeFiles/ex01.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ex01.dir/src/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/main.cpp > CMakeFiles/ex01.dir/src/main.cpp.i
+
+CMakeFiles/ex01.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ex01.dir/src/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/main.cpp -o CMakeFiles/ex01.dir/src/main.cpp.s
 
 # Object files for target ex01
 ex01_OBJECTS = \
 "CMakeFiles/ex01.dir/src/color.cpp.o" \
 "CMakeFiles/ex01.dir/src/color_hex.cpp.o" \
-"CMakeFiles/ex01.dir/src/colors_utils.cpp.o"
+"CMakeFiles/ex01.dir/src/colors_utils.cpp.o" \
+"CMakeFiles/ex01.dir/src/main.cpp.o"
 
 # External object files for target ex01
 ex01_EXTERNAL_OBJECTS =
@@ -126,9 +141,10 @@ ex01_EXTERNAL_OBJECTS =
 ex01: CMakeFiles/ex01.dir/src/color.cpp.o
 ex01: CMakeFiles/ex01.dir/src/color_hex.cpp.o
 ex01: CMakeFiles/ex01.dir/src/colors_utils.cpp.o
+ex01: CMakeFiles/ex01.dir/src/main.cpp.o
 ex01: CMakeFiles/ex01.dir/build.make
 ex01: CMakeFiles/ex01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ex01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ex01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +156,6 @@ CMakeFiles/ex01.dir/clean:
 .PHONY : CMakeFiles/ex01.dir/clean
 
 CMakeFiles/ex01.dir/depend:
-	cd /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8 /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8 /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build/CMakeFiles/ex01.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8 /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8 /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build/CMakeFiles/ex01.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ex01.dir/depend
 

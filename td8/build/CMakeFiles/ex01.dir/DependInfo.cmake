@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.cpp" "CMakeFiles/ex01.dir/src/color.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/color.cpp.o.d"
-  "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.cpp" "CMakeFiles/ex01.dir/src/color_hex.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/color_hex.cpp.o.d"
-  "/Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/colors_utils.cpp" "CMakeFiles/ex01.dir/src/colors_utils.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/colors_utils.cpp.o.d"
+  "/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color.cpp" "CMakeFiles/ex01.dir/src/color.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/color.cpp.o.d"
+  "/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color_hex.cpp" "CMakeFiles/ex01.dir/src/color_hex.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/color_hex.cpp.o.d"
+  "/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/colors_utils.cpp" "CMakeFiles/ex01.dir/src/colors_utils.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/colors_utils.cpp.o.d"
+  "/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/main.cpp" "CMakeFiles/ex01.dir/src/main.cpp.o" "gcc" "CMakeFiles/ex01.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

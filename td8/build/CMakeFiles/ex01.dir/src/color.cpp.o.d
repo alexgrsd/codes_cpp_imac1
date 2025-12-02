@@ -1,8 +1,8 @@
 CMakeFiles/ex01.dir/src/color.cpp.o: \
-  /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.cpp \
-  /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.hpp \
-  /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/colors_utils.hpp \
-  /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.hpp \
+  /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color.cpp \
+  /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color.hpp \
+  /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/colors_utils.hpp \
+  /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color_hex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

@@ -16,7 +16,7 @@ int sumRecursive (std::vector<int> vec, int debut, int fin) {
 }
 
 int main() {
-    std::vector<int> numbers = {1, 2, 3, 4, 5};
+    std::vector<int> numbers = {1, 6, 3, 9, 5};
     std::cout << "Sum: " << sum(numbers) << std::endl;
     std::cout << "Sum (recursive): " << sumRecursive(numbers, 0, numbers.size() - 1) << std::endl;
     return 0;

@@ -1,5 +1,7 @@
 #include "color.hpp"
 
+#pragma once
+
 Color::Rgb mix(const Color::Rgb& c1, const Color::Rgb& c2);
 
 float luminance(const Color::Rgb& color);

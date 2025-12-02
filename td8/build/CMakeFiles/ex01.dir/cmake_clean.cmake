@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex01.dir/src/color_hex.cpp.o.d"
   "CMakeFiles/ex01.dir/src/colors_utils.cpp.o"
   "CMakeFiles/ex01.dir/src/colors_utils.cpp.o.d"
+  "CMakeFiles/ex01.dir/src/main.cpp.o"
+  "CMakeFiles/ex01.dir/src/main.cpp.o.d"
   "ex01"
   "ex01.pdb"
 )

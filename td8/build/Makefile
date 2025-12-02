@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8
+CMAKE_SOURCE_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build
+CMAKE_BINARY_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build/CMakeFiles /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build/CMakeFiles /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -201,6 +201,30 @@ src/colors_utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/colors_utils.cpp.s
 .PHONY : src/colors_utils.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex01.dir/build.make CMakeFiles/ex01.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... src/colors_utils.o"
 	@echo "... src/colors_utils.i"
 	@echo "... src/colors_utils.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

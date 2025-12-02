@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td5"
+CMAKE_SOURCE_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td5/build"
+CMAKE_BINARY_DIR = /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td5/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td5/build/CMakeFiles" "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td5/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td5/build/CMakeFiles /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td5/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td5/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td5/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -180,6 +180,32 @@ ex05: cmake_check_build_system
 ex05/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex05.dir/build.make CMakeFiles/ex05.dir/build
 .PHONY : ex05/fast
+
+#=============================================================================
+# Target rules for targets named ex06
+
+# Build rule for target.
+ex06: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex06
+.PHONY : ex06
+
+# fast build rule for target.
+ex06/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex06.dir/build.make CMakeFiles/ex06.dir/build
+.PHONY : ex06/fast
+
+#=============================================================================
+# Target rules for targets named ex07
+
+# Build rule for target.
+ex07: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex07
+.PHONY : ex07
+
+# fast build rule for target.
+ex07/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex07.dir/build.make CMakeFiles/ex07.dir/build
+.PHONY : ex07/fast
 
 src/ex1.o: src/ex1.cpp.o
 .PHONY : src/ex1.o
@@ -301,6 +327,54 @@ src/ex5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex05.dir/build.make CMakeFiles/ex05.dir/src/ex5.cpp.s
 .PHONY : src/ex5.cpp.s
 
+src/ex6.o: src/ex6.cpp.o
+.PHONY : src/ex6.o
+
+# target to build an object file
+src/ex6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex06.dir/build.make CMakeFiles/ex06.dir/src/ex6.cpp.o
+.PHONY : src/ex6.cpp.o
+
+src/ex6.i: src/ex6.cpp.i
+.PHONY : src/ex6.i
+
+# target to preprocess a source file
+src/ex6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex06.dir/build.make CMakeFiles/ex06.dir/src/ex6.cpp.i
+.PHONY : src/ex6.cpp.i
+
+src/ex6.s: src/ex6.cpp.s
+.PHONY : src/ex6.s
+
+# target to generate assembly for a file
+src/ex6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex06.dir/build.make CMakeFiles/ex06.dir/src/ex6.cpp.s
+.PHONY : src/ex6.cpp.s
+
+src/ex7.o: src/ex7.cpp.o
+.PHONY : src/ex7.o
+
+# target to build an object file
+src/ex7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex07.dir/build.make CMakeFiles/ex07.dir/src/ex7.cpp.o
+.PHONY : src/ex7.cpp.o
+
+src/ex7.i: src/ex7.cpp.i
+.PHONY : src/ex7.i
+
+# target to preprocess a source file
+src/ex7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex07.dir/build.make CMakeFiles/ex07.dir/src/ex7.cpp.i
+.PHONY : src/ex7.cpp.i
+
+src/ex7.s: src/ex7.cpp.s
+.PHONY : src/ex7.s
+
+# target to generate assembly for a file
+src/ex7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex07.dir/build.make CMakeFiles/ex07.dir/src/ex7.cpp.s
+.PHONY : src/ex7.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,6 +388,8 @@ help:
 	@echo "... ex03"
 	@echo "... ex04"
 	@echo "... ex05"
+	@echo "... ex06"
+	@echo "... ex07"
 	@echo "... src/ex1.o"
 	@echo "... src/ex1.i"
 	@echo "... src/ex1.s"
@@ -329,6 +405,12 @@ help:
 	@echo "... src/ex5.o"
 	@echo "... src/ex5.i"
 	@echo "... src/ex5.s"
+	@echo "... src/ex6.o"
+	@echo "... src/ex6.i"
+	@echo "... src/ex6.s"
+	@echo "... src/ex7.o"
+	@echo "... src/ex7.i"
+	@echo "... src/ex7.s"
 .PHONY : help
 
 

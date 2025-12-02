@@ -14,3 +14,7 @@ add_executable(ex04 src/ex4.cpp)
 
 add_executable(ex05 src/ex5.cpp)
 
+add_executable(ex06 src/ex6.cpp)
+
+add_executable(ex07 src/ex7.cpp)
+

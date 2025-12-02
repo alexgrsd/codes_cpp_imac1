@@ -1,7 +1,7 @@
 CMakeFiles/ex01.dir/src/color_hex.cpp.o: \
-  /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.cpp \
-  /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color_hex.hpp \
-  /Users/alexandregrosdidier/Desktop/cours/cpp/td/td8/src/color.hpp \
+  /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color_hex.cpp \
+  /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color_hex.hpp \
+  /Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td8/src/color.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -792,4 +792,5 @@ CMakeFiles/ex01.dir/src/color_hex.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream

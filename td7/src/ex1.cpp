@@ -2,13 +2,46 @@
 
 using namespace std;
 
-struct Position {
-    int x;
-    int y;
+struct submarine {
+    int x {0};
+    int y {0};
 
 };
 
-enum Direction {
+string sub = R"( 
+
+ /--------------------------------\
+ |  roger, position is ()";
+
+string sub2 = R"()   |
+ \--------------------------------/
+
+
+                             ?
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~|^"~~~~~~~~~~~~~~~~~~~~~~~~~o~~~~~~~~~~~
+        o                   |                  o      __o
+         o                  |                 o     |X__>
+       ___o                 |                __o
+     (X___>--             __|__            |X__>     o
+                         |     \                   __o
+                         |      \                |X__>
+  _______________________|_______\________________
+ <                                                \____________   _
+  \                                                            \ (_)
+   \    O       O       O                                       >=)
+    \__________________________________________________________/ (_)
+
+                            ___
+                           / o \
+                      __   \   /   _
+                        \__/ | \__/ \
+                       \___//|\\___/\
+                        ___/ | \___          
+                             |     \
+                            /
+)";
+
+enum class Direction {
     FORWARD,
     DOWN,
     BACKWARD,
@@ -16,36 +49,39 @@ enum Direction {
 };
 
 struct Move {
-    Direction dir;
-    int distance;
+    Direction dir {Direction::FORWARD};
+    int distance {0};
 };
 
-void move_position(Position &pos, Direction dir, int distance) {
+void move_position(submarine &sub, Direction dir, int distance) {
     switch (dir) {
         case Direction::UP:
-            pos.y += distance;
+            sub.y += distance;
             break;
         case Direction::DOWN:
-            pos.y -= distance;
+            sub.y -= distance;
             break;
         case Direction::BACKWARD:
-            pos.x -= distance;
+            sub.x -= distance;
             break;
         case Direction::FORWARD:
-            pos.x += distance;
+            sub.x += distance;
             break;
     }
 }
 
-void display(const Position &pos) {
-    cout << "Position: (" << pos.x << ", " << pos.y << ")" << endl;
+void display(const submarine &sub) {
+    cout << "Position: (" << sub.x << ", " << sub.y << ")" << endl;
+}
+
+void display_2(const submarine &sub_pos){
+    cout << sub << sub_pos.x << ", " << sub_pos.y << sub2;
 }
 
 
 int main() {
 
-    Position pos = {0, 0};
-
+    submarine sub = {0, 0};
     std::vector<Move> moves {
     {Direction::FORWARD, 10},
     {Direction::DOWN, 5},
@@ -62,8 +98,10 @@ int main() {
     {Direction::BACKWARD, 2},
     {Direction::FORWARD, 6}
     };
-    for (const auto &move : moves) {
-        move_position(pos, move.dir, move.distance);
-        display(pos);
+    for (const Move &move : moves) {
+        move_position(sub, move.dir, move.distance);
+        display(sub);
     }
+
+    display_2(sub);
 }

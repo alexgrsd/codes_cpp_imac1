@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/alexandregrosdidier/Desktop/cours /cpp/td/td5/CMakeLists.txt"
+  "/Users/alexandregrosdidier/Desktop/cours/cpp/td-cpp/td5/CMakeLists.txt"
   "CMakeFiles/4.1.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeSystem.cmake"
@@ -61,4 +61,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ex03.dir/DependInfo.cmake"
   "CMakeFiles/ex04.dir/DependInfo.cmake"
   "CMakeFiles/ex05.dir/DependInfo.cmake"
+  "CMakeFiles/ex06.dir/DependInfo.cmake"
+  "CMakeFiles/ex07.dir/DependInfo.cmake"
   )

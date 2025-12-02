@@ -13,6 +13,6 @@ file(GLOB helloworld_TST
 )
 
 # On indique que l'on veut créer un exécutable "ex01" compilé à partir du fichier td04_ex01.cpp
-add_executable(ex01 ${helloworld_SRC}) 
+add_executable(ex01 ${helloworld_SRC} src/main.cpp) 
 
 #add_executable(tst ${helloworld_TST}) 

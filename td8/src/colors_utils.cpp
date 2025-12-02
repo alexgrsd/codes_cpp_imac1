@@ -23,5 +23,9 @@ Color::Rgb invert(const Color::Rgb& color) {
 
 Color::Rgb to_grayscale(const Color::Rgb& color) {
     int gray {static_cast<int>(luminance(color))};
-    return Color::Rgb{gray, gray, gray};
+    Color::Rgb result;
+    result.r = gray;
+    result.g = gray;
+    result.b = gray;
+    return result;
 }
