@@ -10,7 +10,7 @@ Color::Rgb mix(const Color::Rgb& c1, const Color::Rgb& c2) {
 }
 
 float luminance(const Color::Rgb& color) {
-    return 0.2126f * color.r + 0.7152f * color.g + 0.0722f * color.b;
+    return 0.2126f * color.r/255.0f + 0.7152f * color.g/255.0f + 0.0722f * color.b/255.0f;
 }
 
 Color::Rgb invert(const Color::Rgb& color) {
