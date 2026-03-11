@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/helloworld.dir/src/color.cpp.o CMakeFiles/helloworld.dir/src/color_hex.cpp.o CMakeFiles/helloworld.dir/src/colors_utils.cpp.o -o helloworld
